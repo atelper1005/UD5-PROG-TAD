@@ -36,7 +36,7 @@ public class Persona implements Comparable {
 
     @Override
     public String toString(){
-        return "Persona{" + nombre + ", " + edad + "}";
+        return "EjemploTreeSet.Persona{" + nombre + ", " + edad + "}";
     }
 
     @Override

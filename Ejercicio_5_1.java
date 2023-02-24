@@ -16,19 +16,18 @@ public class Ejercicio_5_1 {
 
         //Al introducir dos personas que se llamen igual, pero de edad distinta, ordena primero por nombre y luego
         //por edad, del más joven al más viejo.
-        Persona jorge = new Persona("Jorge", 25);
-        Persona jorge1 = new Persona("Jorge", 35);
+        Persona juan = new Persona("Juan", 25);
+        Persona juan1 = new Persona("Juan", 35);
 
-        //Si introducimos dos personas iguales (como Daniel en este caso), solo acepta uno de los dos, por lo que no
-        // se pueden repetir personas.
-        Persona daniel = new Persona("Daniel", 21);
-        Persona daniel1 = new Persona("Daniel", 21);
-        Persona diego = new Persona("Diego", 20);
-        comparadorPersona.add(jorge);
-        comparadorPersona.add(jorge1);
-        comparadorPersona.add(daniel);
-        comparadorPersona.add(daniel1);
-        comparadorPersona.add(diego);
+        //Si introducimos dos personas iguales, solo acepta uno de los dos, por lo que no se pueden repetir personas.
+        Persona maria = new Persona("Maria", 23);
+        Persona maria1 = new Persona("Maria", 23);
+        Persona andres = new Persona("Andres", 28);
+        comparadorPersona.add(juan);
+        comparadorPersona.add(juan1);
+        comparadorPersona.add(maria);
+        comparadorPersona.add(maria1);
+        comparadorPersona.add(andres);
 
         //no permite introducir una persona nula
         //comparadorPersona.add(null);

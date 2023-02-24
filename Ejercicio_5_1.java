@@ -30,7 +30,10 @@ public class Ejercicio_5_1 {
         comparadorPersona.add(andres);
 
         //no permite introducir una persona nula
-        //comparadorPersona.add(null);
+        comparadorPersona.add(null);
+
+        //Para que se mantenga ordenado sin tener en cuenta minúsculas ni mayúsculas, de la z a la a
+
 
         System.out.println(comparadorPersona);
 

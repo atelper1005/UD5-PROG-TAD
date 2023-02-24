@@ -8,5 +8,13 @@ public class Ejercicio5_2 {
         List<Alumno> listaIniciacion = new ArrayList<>();
         listaIniciacion.add(new Alumno("pibe1", 0f, 0));
         listaIniciacion.add(new Alumno("piba1", 0f, 0));
+
+        String nuevaTarea = "Tarea 1";
+        agregarTarea(tareas, nuevaTarea);
+        System.out.println(tareas);
+
+        String tareaBorrar = "Tarea 1";
+        agregarTarea(tareas, nuevaTarea);
+        System.out.println(tareas);
     }
 }
